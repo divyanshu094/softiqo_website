@@ -1,3 +1,15 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Privacy Policy",
+  description: "Read Softiqo Technologies' privacy policy to understand how we collect, use, and protect your personal information.",
+  keywords: ["privacy policy", "data protection", "personal information", "privacy"],
+  robots: {
+    index: false,
+    follow: true,
+  },
+};
+
 export default function PrivacyPage() {
   return (
       <main className="mx-auto flex w-full max-w-6xl flex-col gap-10 px-6 py-10 lg:px-10">

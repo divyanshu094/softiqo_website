@@ -60,13 +60,13 @@ export default function MainHeader() {
 
   return (
     <header className="fixed inset-x-0 top-0 z-50 border-b border-[color:var(--border)] bg-[color:var(--surface)]/95 shadow-sm backdrop-blur-sm">
-      <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-5 lg:px-10">
+      <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-2 lg:px-5">
         <Link href="/" className="flex items-center text-[color:var(--foreground)]">
           <Image
-            src="/images/softiqo_logo.png"
+            src="/images/new_logo.png"
             alt="Softiqo Technologies logo"
-            width={56}
-            height={56}
+            width={200}
+            height={80}
             className="object-contain"
           />
         </Link>

@@ -1,0 +1,21 @@
+{
+  "name": "Softiqo Technologies",
+  "short_name": "Softiqo",
+  "description": "Custom software development and digital solutions",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "/images/softiqo_logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/softiqo_logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

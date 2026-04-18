@@ -1,4 +1,24 @@
 import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Home",
+  description: "Softiqo Technologies delivers custom software development, cloud solutions, and digital products that help businesses accelerate growth and scale with confidence.",
+  keywords: ["software development company", "custom software", "digital transformation", "cloud solutions", "product development"],
+  openGraph: {
+    title: "Softiqo Technologies - Building Digital Products That Accelerate Growth",
+    description: "We help startups, scale-ups, and enterprises turn bold ideas into polished software, modern cloud systems, and memorable customer experiences.",
+    url: 'https://softiqo.com',
+    images: [
+      {
+        url: '/images/softiqo_logo.png',
+        width: 1200,
+        height: 630,
+        alt: 'Softiqo Technologies - Software Development Company',
+      },
+    ],
+  },
+};
 
 export default function Home() {
   return (

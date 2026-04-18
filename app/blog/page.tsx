@@ -1,3 +1,15 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Blog",
+  description: "Read insights on software development, design, and product strategy from Softiqo Technologies. Explore our latest thinking on building scalable digital products and modern technology stacks.",
+  keywords: ["software blog", "technology insights", "product strategy", "design tips", "engineering best practices"],
+  openGraph: {
+    title: "Blog - Softiqo Technologies",
+    description: "Insights on software, design, and product strategy from Softiqo Technologies.",
+  },
+};
+
 export default function BlogPage() {
   return (
       <main className="mx-auto flex w-full max-w-6xl flex-col gap-10 px-6 py-10 lg:px-10">

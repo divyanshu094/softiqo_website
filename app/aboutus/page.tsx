@@ -1,4 +1,15 @@
 import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "About Us",
+  description: "Learn about Softiqo Technologies - a full-service software company that helps businesses solve complex challenges with elegant digital products, modern application engineering, and cloud-native infrastructure.",
+  keywords: ["about softiqo", "software company", "technology partner", "digital solutions", "software engineering"],
+  openGraph: {
+    title: "About Softiqo Technologies - Empowering Teams with Software & Design",
+    description: "Softiqo Technologies is a full-service software company that helps businesses solve complex challenges with elegant digital products and modern cloud solutions.",
+  },
+};
 
 export default function AboutUsPage() {
   return (

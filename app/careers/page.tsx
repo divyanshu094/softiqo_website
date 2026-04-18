@@ -1,3 +1,15 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Careers",
+  description: "Join Softiqo Technologies as an engineer, designer, or product builder. We hire talented individuals who want to create products that solve real problems and grow businesses.",
+  keywords: ["careers", "jobs", "software engineering jobs", "product design jobs", "join softiqo"],
+  openGraph: {
+    title: "Careers at Softiqo Technologies - Join Our Team",
+    description: "We are hiring engineers, designers, and product builders who want to create products that solve real problems and grow businesses.",
+  },
+};
+
 export default function CareersPage() {
   return (
       <main className="mx-auto flex w-full max-w-6xl flex-col gap-10 px-6 py-10 lg:px-10">

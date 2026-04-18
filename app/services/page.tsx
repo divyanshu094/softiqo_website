@@ -1,4 +1,15 @@
 import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Services",
+  description: "Explore our comprehensive software engineering and digital product services including custom development, cloud architecture, product design, platform integration, and MVP launches.",
+  keywords: ["software services", "custom development", "cloud architecture", "product design", "DevOps", "platform integration", "MVP development"],
+  openGraph: {
+    title: "Software Engineering Services - Softiqo Technologies",
+    description: "From product discovery to launch and ongoing support, we deliver end-to-end services that help teams ship more consistently and confidently.",
+  },
+};
 
 const services = [
   {

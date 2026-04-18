@@ -1,3 +1,15 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Contact Us",
+  description: "Get in touch with Softiqo Technologies to discuss your software development project, technology strategy, or design needs. We help businesses build digital solutions that drive growth.",
+  keywords: ["contact softiqo", "software consultation", "project inquiry", "technology partnership"],
+  openGraph: {
+    title: "Contact Softiqo Technologies - Let's Build Your Next Software Solution",
+    description: "Reach out to start a conversation about your project, technology strategy, or design needs. We respond quickly and help shape the next step for your business.",
+  },
+};
+
 export default function ContactUsPage() {
   return (
       <main className="mx-auto flex w-full max-w-6xl flex-col gap-16 px-6 py-10 lg:px-10">

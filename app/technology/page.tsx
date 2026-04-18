@@ -1,3 +1,15 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Technology",
+  description: "Explore the modern technology stack used by Softiqo Technologies including React, Next.js, Node.js, cloud infrastructure, and scalable architecture for building reliable software platforms.",
+  keywords: ["technology stack", "modern frameworks", "cloud infrastructure", "scalable architecture", "software tools"],
+  openGraph: {
+    title: "Technology Stack - Softiqo Technologies",
+    description: "We leverage cloud-native tooling, modern frameworks, and robust architecture to build reliable software platforms and APIs.",
+  },
+};
+
 export default function TechnologyPage() {
   return (
       <main className="mx-auto flex w-full max-w-6xl flex-col gap-10 px-6 py-10 lg:px-10">

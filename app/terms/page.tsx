@@ -1,3 +1,15 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Terms of Service",
+  description: "Read the terms and conditions for using the Softiqo Technologies website and services.",
+  keywords: ["terms of service", "terms and conditions", "website terms", "service agreement"],
+  robots: {
+    index: false,
+    follow: true,
+  },
+};
+
 export default function TermsPage() {
   return (
       <main className="mx-auto flex w-full max-w-6xl flex-col gap-10 px-6 py-10 lg:px-10">
