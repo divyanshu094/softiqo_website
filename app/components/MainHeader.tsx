@@ -23,16 +23,17 @@ const themes = [
 export default function MainHeader() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [themeOpen, setThemeOpen] = useState(false);
-  const [activeTheme, setActiveTheme] = useState(() => {
-    if (typeof window === "undefined") return "softiqo";
-    const storedTheme = localStorage.getItem("softiqo-theme");
-    const prefersDark = window.matchMedia?.("(prefers-color-scheme: dark)").matches;
-    return storedTheme && themes.some((theme) => theme.id === storedTheme)
-      ? storedTheme
-      : prefersDark
-      ? "dark"
-      : "softiqo";
-  });
+  // const [activeTheme, setActiveTheme] = useState(() => {
+  //   if (typeof window === "undefined") return "softiqo";
+  //   const storedTheme = localStorage.getItem("softiqo-theme");
+  //   const prefersDark = window.matchMedia?.("(prefers-color-scheme: dark)").matches;
+  //   return storedTheme && themes.some((theme) => theme.id === storedTheme)
+  //     ? storedTheme
+  //     : prefersDark
+  //     ? "dark"
+  //     : "softiqo";
+  // });
+  const [activeTheme, setActiveTheme] = useState("teal");
 
   useEffect(() => {
     document.documentElement.dataset.theme = activeTheme;
